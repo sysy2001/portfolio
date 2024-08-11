@@ -1,0 +1,24 @@
+.dark-mode-toggle {
+    position: absolute;
+    top: 2rem;
+    right: 0.7rem;
+    z-index: 1000;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+
+}
+
+.dark-mode-toggle img {
+  width: 45px; 
+  height: 45px; 
+  transition: opacity 0.3s ease;
+}
+
+.button-container {
+    padding-left: 20%;
+    z-index: 1; 
+}
+

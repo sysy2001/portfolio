@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body.dark-mode {
+    background-image: url('images/black.png');
+    color: white;
+    transition: transform 0.3s ease, opacity 0.3s ease, background-image 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+  
+body.light-mode {
+    background-image: url('images/white.png');
+    color: black;
+    transition: transform 0.3s ease, opacity 0.3s ease, background-image 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+  
+  
