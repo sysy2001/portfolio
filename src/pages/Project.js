@@ -35,7 +35,7 @@ const Project = ({ isDarkMode }) => {
                 {/* gallery layout reference: https://codepen.io/qq7886/pen/MypEvw */}
                 <div className="masonry">
 
-                    <a href="/project/solo-pong" className="item_link">
+                    <Link to="/solo-pong" className="item_link">
                         <div className="item">
                             <img src={SoloPongPreview} alt="Solo Pong" />
                             <h3 className="item_title">Solo Pong</h3>
@@ -44,9 +44,9 @@ const Project = ({ isDarkMode }) => {
                                 <Tag label="arduino iot 33" />
                             </div>
                         </div>
-                    </a>
+                    </Link>
 
-                    <a href="/project/sketch-booth" className="item_link">
+                    <Link to="/sketch-booth" className="item_link">
                         <div className="item">
                             <img src={SketchboothPreview} alt="Sketch Booth" />
                             <h3 className="item_title">Sketch Booth</h3>
@@ -60,10 +60,10 @@ const Project = ({ isDarkMode }) => {
                             </div>
                         </div>
 
-                    </a>
+                    </Link>
 
 
-                    <a href="/project/unlock" className="item_link">
+                    <Link to="/unlock" className="item_link">
                         <div className="item">
                             <img src={UnlockPreview} alt="Unlock" />
                             <h3 className="item_title">Unlock</h3>
@@ -75,12 +75,12 @@ const Project = ({ isDarkMode }) => {
                                     <Tag label="2d art" />
                             </div>
                         </div>
-                    </a>
+                    </Link>
 
                     
 
 
-                    <a href="/project/olivias-room" className="item_link">
+                    <Link to="/olivias-room" className="item_link">
                         <div className="item">
                             <img src={OliviasRoomPreview} alt="Olivia's Room" />
                             <h3 className="item_title">Olivia's Room</h3>
@@ -91,10 +91,10 @@ const Project = ({ isDarkMode }) => {
                                     
                         </div>
                     
-                    </a>
+                    </Link>
                     
 
-                    <a href="/project/dream" className="item_link">
+                    <Link to="/dream" className="item_link">
                         <div className="item">
                             <img src={DreamsPreview} alt="Dreams" />
                             <h3 className="item_title">Dream as they are DREAMS</h3>
@@ -105,10 +105,10 @@ const Project = ({ isDarkMode }) => {
                                     <Tag label="generative text" />
                             </div>
                         </div>
-                    </a>
+                    </Link>
 
                     
-                    <a href="/project/rice" className="item_link">
+                    <Link to="/rice" className="item_link">
                         <div className="item">
                             <img src={RicePreview} alt="Rice!!" />
                             <h3 className="item_title">RICE!!</h3>
@@ -122,11 +122,11 @@ const Project = ({ isDarkMode }) => {
                             </div>
                         </div>
 
-                    </a>
+                    </Link>
 
                     
 
-                    <a href="/project/seeing-sound" className="item_link">
+                    <Link to="/seeing-sound" className="item_link">
                         <div className="item">
                             <img src={SeeingsoundPreview} alt="Seeing Sound" />
                             <h3 className="item_title">Seeing Sound</h3>
@@ -136,7 +136,7 @@ const Project = ({ isDarkMode }) => {
                                     <Tag label="javascript" />
                             </div>
                         </div>
-                    </a>
+                    </Link>
 
                     
                     
@@ -144,7 +144,7 @@ const Project = ({ isDarkMode }) => {
                     
 
 
-                    <a href="/project/pancake" className="item_link">
+                    <Link to="/pancake" className="item_link">
                         <div className="item">
                             <img src={PancakePreview} alt="Pancake!" />
                             <h3 className="item_title">Make your own Pancake</h3>
@@ -154,7 +154,7 @@ const Project = ({ isDarkMode }) => {
                                     <Tag label="2d art" />
                             </div>
                         </div>
-                    </a>
+                    </Link>
 
 
                     
