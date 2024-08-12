@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className={`app ${isDarkMode ? 'dark' : 'light'}`}>
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter>
         <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
           <Route path="/" element={<Home isDarkMode={isDarkMode} />} />
