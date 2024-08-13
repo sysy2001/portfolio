@@ -11,7 +11,7 @@
 import React, { useEffect, useRef } from 'react';
 import p5 from 'p5';
 
-const Sketch = () => {
+const Sketch = ({ onLoad }) => {
   const sketchRef = useRef();
 
   useEffect(() => {
@@ -25,6 +25,9 @@ const Sketch = () => {
 
       p.setup = () => {
         p.createCanvas(500, 395).parent(sketchRef.current);
+        if (onLoad) {
+          onLoad(); 
+        }
       };
 
       p.draw = () => {
@@ -75,7 +78,7 @@ const Sketch = () => {
     return () => {
       sketch.remove();
     };
-  }, []); 
+  }, [onLoad]);
 
   return <div ref={sketchRef} />;
 };

@@ -28,7 +28,7 @@ const About = ({ isDarkMode }) => {
           <br />
           <br />
           She received her B.S. in Computer Science at Tufts University.
-          She is currently a first-year master's student at the Interactive Telecommunications Program of NYU Tisch School of the Arts.
+          She is currently a second-year master's student at the Interactive Telecommunications Program of NYU Tisch School of the Arts.
         </h3>
 
         <a className="social" style={{color: isDarkMode ? 'white' : 'black' }} href="mailto:sangyuc2001@gmail.com">email &#x2197;</a> 

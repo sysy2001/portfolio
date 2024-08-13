@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 html, body {
@@ -20,15 +21,15 @@ code {
 
 
 body.dark-mode {
-    background-image: url('images/black.png');
+    /* background-image: url('images/black.png'); */
+    background-color: #0C0C0C;
     color: white;
-    transition: transform 0.3s ease, opacity 0.3s ease, background-image 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
   
 body.light-mode {
-    background-image: url('images/white.png');
+    /* background-image: url('images/white.png'); */
+    background-color: #fff6eb;
     color: black;
-    transition: transform 0.3s ease, opacity 0.3s ease, background-image 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
   
 .app {
