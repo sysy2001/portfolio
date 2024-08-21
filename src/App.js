@@ -16,6 +16,7 @@ import Pancake from './pages/projects/Pancake';
 
 
 import DarkModeToggle from './component/DarkModeToggle';
+import ScrollToTop from './component/ScrollToTop';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
