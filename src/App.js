@@ -41,6 +41,7 @@ function App() {
   return (
     <div className={`app ${isDarkMode ? 'dark' : 'light'}`}>
       <BrowserRouter>
+        <ScrollToTop />
         <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
           <Route path="/" element={<Home isDarkMode={isDarkMode} />} />
