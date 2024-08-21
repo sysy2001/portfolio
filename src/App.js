@@ -16,6 +16,7 @@ import Pancake from './pages/projects/Pancake';
 
 
 import DarkModeToggle from './component/DarkModeToggle';
+import ScrollToTop from './component/ScrollToTop';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -41,6 +42,7 @@ function App() {
   return (
     <div className={`app ${isDarkMode ? 'dark' : 'light'}`}>
       <BrowserRouter>
+        <ScrollToTop />
         <DarkModeToggle isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
           <Route path="/" element={<Home isDarkMode={isDarkMode} />} />
