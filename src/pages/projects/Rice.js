@@ -28,13 +28,14 @@ const Rice = ({ isDarkMode }) => {
       <h3 className="project-title">
             RICE!!
         </h3>
-        <p className="year"> 2024 </p>
+        <p className="year"> March - May 2024 </p>
+        <p className="collab">Collaborative work with Isabel Wu, Steve Sun and Max Sun</p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',
                         textUnderlineOffset: '6px',
                         textDecorationColor: '#FB88B4',}}  href="https://sangyu-chen.itch.io/rice" target="_blank" rel="noopener noreferrer">Project &#x2197;</a> | 
-                        Role: Game/Unity Development, C# programming <br></br>
+                        My Role: Game/Unity Development, C# programming <br></br>
             </p>
 
             <div className="media-container">

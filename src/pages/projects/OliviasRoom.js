@@ -27,7 +27,8 @@ const OliviasRoom = ({ isDarkMode }) => {
       <h3 className="project-title">
             Olivia's Room
         </h3>
-        <p className="year"> 2023 </p>
+        <p className="year"> November - December 2023 </p>
+        <p className="collab">Collaborative work with Sonny Yan</p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',

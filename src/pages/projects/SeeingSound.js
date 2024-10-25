@@ -28,7 +28,7 @@ const SeeingSound = ({ isDarkMode }) => {
         <h3 className="project-title">
             Seeing Sound
         </h3>
-        <p className="year"> 2023 </p>
+        <p className="year"> October - November 2023 </p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',

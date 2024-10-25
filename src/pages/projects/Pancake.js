@@ -26,7 +26,7 @@ const Pancake = ({ isDarkMode }) => {
       <h3 className="project-title">
             Make your OWN pancake
         </h3>
-        <p className="year"> 2024 </p>
+        <p className="year"> February 2024 </p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',

@@ -28,13 +28,14 @@ const SketchBooth = ({ isDarkMode }) => {
       <h3 className="project-title">
             Sketch Booth
         </h3>
-        <p className="year"> 2024 </p>
+        <p className="year"> March - May 2024 </p>
+        <p className="collab">Collaborative work with Shun Huang and Iris Wu</p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',
                         textUnderlineOffset: '6px',
                         textDecorationColor: '#FB88B4',}}  href="https://sc7436.itp.io/" target="_blank" rel="noopener noreferrer">Project &#x2197;</a> | 
-                        Role: Web Development, Backend Development <br></br>
+                        My Role: Web Development, Backend Development <br></br>
             </p>
 
         <div className="media-container">

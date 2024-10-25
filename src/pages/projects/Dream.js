@@ -27,7 +27,7 @@ const Dream = ({ isDarkMode }) => {
       <h3 className="project-title">
             Dream as they are DREAMS
         </h3>
-        <p className="year"> 2024 </p>
+        <p className="year"> April - May 2024 </p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',

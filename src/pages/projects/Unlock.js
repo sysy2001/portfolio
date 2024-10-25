@@ -30,7 +30,7 @@ const Unlock = ({ isDarkMode }) => {
       <h3 className="project-title">
             Sketch Booth
         </h3>
-        <p className="year"> 2024 </p>
+        <p className="year"> February - March 2024 </p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',
