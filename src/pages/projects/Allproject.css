@@ -52,6 +52,26 @@
     text-align: center;
 }
 
+
+.show-container {
+    text-align: center; 
+}
+
+.show {
+    font-family: "futura-pt", sans-serif;
+    font-size: 17px;
+    font-weight: regular;
+    margin-top: 7px;
+    margin-bottom:0px;
+    font-style: italic;
+	background-color: rgb(174, 234, 148, 0.8); 
+    display: inline-block;
+    
+}
+
+
+
+
 .underscore {
     text-decoration: underline;
     text-decoration-color: #FB88B4;

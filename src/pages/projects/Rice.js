@@ -28,7 +28,12 @@ const Rice = ({ isDarkMode }) => {
       <h3 className="project-title">
             RICE!!
         </h3>
-        <p className="year"> March - May 2024 </p>
+        <p className="year">March - May 2024</p>
+        <div className="show-container">
+            <p className="show">Accepted for MagFest 2025, GDC alt ctrl 2025</p> 
+        </div>
+
+
         <p className="collab">Collaborative work with Isabel Wu, Steve Sun and Max Sun</p>
             <p className="role">
             <a style={{color: isDarkMode ? 'white' : 'black' ,

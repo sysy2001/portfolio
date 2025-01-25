@@ -8,8 +8,9 @@ import UnlockPreview from './images/unlock1.png';
 import SketchboothPreview from './images/sketchbooth1.png';
 import DreamsPreview from './images/dreams1.png';
 import SeeingsoundPreview from './images/seeingsound1.png';
-import RicePreview from './images/rice1.png';
+import RicePreview from './images/rice.jpg';
 import PancakePreview from './images/pancake1.png';
+import ClouckPreview from './images/clouck.jpg'
 
 const Project = ({ isDarkMode }) => {
     
@@ -141,7 +142,17 @@ const Project = ({ isDarkMode }) => {
                     
                     
                     
-                    
+                    <Link to="/clouck" className="item_link">
+                        <div className="item">
+                            <img src={ClouckPreview} alt="A cloud clock" />
+                            <h3 className="item_title">Clouck</h3>
+                            <div className="tags">
+                                    <Tag label="clock design" />
+                                    <Tag label="Arduino iot 33" />
+                                    <Tag label="LED" />
+                            </div>
+                        </div>
+                    </Link>
 
 
                     <Link to="/pancake" className="item_link">
@@ -158,6 +169,7 @@ const Project = ({ isDarkMode }) => {
 
 
                     
+
 
 
                     
