@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a6c6974.css",
-    "main.js": "/static/js/main.6d3b29b4.js",
+    "main.css": "/static/css/main.79b6528e.css",
+    "main.js": "/static/js/main.a17a6bf3.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/sketchbooth.mp4": "/static/media/sketchbooth.8710da197ace13794579.mp4",
     "static/media/rice-vid.mp4": "/static/media/rice-vid.37797250894db46d54a0.mp4",
@@ -13,6 +13,7 @@
     "static/media/pong-prototype.mp4": "/static/media/pong-prototype.cf97c3ec1b34c4b58d45.mp4",
     "static/media/unlock.mp4": "/static/media/unlock.7366c514aea564771c3e.mp4",
     "static/media/pancake.mp4": "/static/media/pancake.dc8db789d87b5cfcce08.mp4",
+    "static/media/clouck.mp4": "/static/media/clouck.e1f07c433c69b126779e.mp4",
     "static/media/prototype.mp4": "/static/media/prototype.02b9d0a0e5d7343d5df2.mp4",
     "static/media/controller.jpg": "/static/media/controller.0609048e559dc267b373.jpg",
     "static/media/oliviasroom1.png": "/static/media/oliviasroom1.6b8b0c0a191f43581b34.png",
@@ -20,23 +21,24 @@
     "static/media/sketch2.jpg": "/static/media/sketch2.b1256079c19b004be6cf.jpg",
     "static/media/sketchbooth1.png": "/static/media/sketchbooth1.b27d15665a0746acc8fb.png",
     "static/media/moon.png": "/static/media/moon.3108e7b8ccdbb74b8737.png",
-    "static/media/rice1.png": "/static/media/rice1.38092dd6bc558d5e56a2.png",
     "static/media/pancake1.png": "/static/media/pancake1.032e980ef6e564c201d0.png",
+    "static/media/rice.jpg": "/static/media/rice.17b67feea75b9459e6a0.jpg",
     "static/media/rice-pic2.jpg": "/static/media/rice-pic2.29e8305d3089a9c2f2ca.jpg",
     "static/media/rice-pic1.jpg": "/static/media/rice-pic1.5937a3ec085b13ff7bd0.jpg",
     "static/media/solopong1.png": "/static/media/solopong1.b51850305b5784d4975e.png",
+    "static/media/clouck.jpg": "/static/media/clouck.65dbef9fe4931f759160.jpg",
     "static/media/unlock-search.png": "/static/media/unlock-search.08268f6c68873d2b72be.png",
     "static/media/dreams1.png": "/static/media/dreams1.34ff95e7580932e4704c.png",
     "static/media/seeingsound1.png": "/static/media/seeingsound1.13620f2f9c508b3fb9b9.png",
     "static/media/unlock1.png": "/static/media/unlock1.4b39497f682da20d5bc4.png",
     "static/media/unlock-end.png": "/static/media/unlock-end.7afce5d2b6d52701b56d.png",
     "index.html": "/index.html",
-    "main.1a6c6974.css.map": "/static/css/main.1a6c6974.css.map",
-    "main.6d3b29b4.js.map": "/static/js/main.6d3b29b4.js.map",
+    "main.79b6528e.css.map": "/static/css/main.79b6528e.css.map",
+    "main.a17a6bf3.js.map": "/static/js/main.a17a6bf3.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a6c6974.css",
-    "static/js/main.6d3b29b4.js"
+    "static/css/main.79b6528e.css",
+    "static/js/main.a17a6bf3.js"
   ]
 }
