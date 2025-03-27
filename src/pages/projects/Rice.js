@@ -77,7 +77,7 @@ const Rice = ({ isDarkMode }) => {
             <img className="photo" style={{ width: '60%',margin: '0 auto'  }} src={photo1} alt="sketch booth setup" />
 
             <p className="caption">
-            Rice!! arcade cabinet
+            RICE!! showcased at alt ctrl GDC 2025, San Francisco
             </p>
 
             <img className="photo" style={{ width: '60%',margin: '0 auto'  }} src={photo2} alt="sketch booth setup" />

@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import video from '../videos/clouck.mp4';
+import video2 from '../videos/clouck-video.mp4';
+
+import photo1 from '../images/clouck-pic1.jpg';
+import photo2 from '../images/clouck-pic2.jpg';
 import './Allproject.css'; 
 
 
@@ -41,14 +45,19 @@ const Clouck = ({ isDarkMode }) => {
 
             <div className="video-container" style={{ paddingTop: '75.25%' }}>
                 <video controls loop muted>
-                    <source src={video} type="video/mp4" />
+                    <source src={video2} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
 
             <p className="caption">
-            The clock changes from 11:05 to 11:06.
+            Motion of the clock.
             </p>
+
+            
+
+            
+
             <div className="project-description"> 
             Inspired by the serene motion of clouds and the joyful essence of a merry-go-round, Clouck reimagines timekeeping as a playful and poetic experience. It features a rotating puffy cloud with rain beads and an LED-based display for the hour and minute, replacing traditional clock hands.
 
@@ -66,6 +75,27 @@ const Clouck = ({ isDarkMode }) => {
                 <br></br>
             </div>
 
+            <img className="photo1" style={{ width: '100%',margin: '0 auto'  }} src={photo1} alt="clock detail" />
+
+            <p className="caption">
+            One led mark the minute
+            </p>
+            <img className="photo2" style={{ width: '100%',margin: '0 auto'  }} src={photo2} alt="clock detail" />
+
+            <p className="caption">
+            Five leds mark the hour
+            </p>
+
+            <div className="video-container" style={{ paddingTop: '75.25%' }}>
+                <video controls loop muted>
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <p className="caption">
+            The clock changes from 11:05 to 11:06.
+            </p>
 
       </div>
 
