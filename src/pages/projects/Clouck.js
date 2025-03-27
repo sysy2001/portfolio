@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import video from '../videos/clouck.mp4';
-import video2 from '../videos/clouck-video.mp4';
+import video2 from '../videos/clouck-video-new.mp4';
 
 import photo1 from '../images/clouck-pic1.jpg';
 import photo2 from '../images/clouck-pic2.jpg';
