@@ -14,6 +14,7 @@ import Dream from './pages/projects/Dream';
 import Rice from './pages/projects/Rice';
 import Pancake from './pages/projects/Pancake';
 import Clouck from './pages/projects/Clouck';
+import Readme from './pages/projects/Readme';
 
 
 import DarkModeToggle from './component/DarkModeToggle';
@@ -58,6 +59,7 @@ function App() {
           <Route path="/rice" element={<Rice isDarkMode={isDarkMode} />} />
           <Route path="/pancake" element={<Pancake isDarkMode={isDarkMode} />} />
           <Route path="/clouck" element={<Clouck isDarkMode={isDarkMode} />} />
+          <Route path="/readme" element={<Readme isDarkMode={isDarkMode} />} />
 
 
         </Routes>

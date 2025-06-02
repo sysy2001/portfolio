@@ -11,6 +11,7 @@ import SeeingsoundPreview from './images/seeingsound1.png';
 import RicePreview from './images/rice.jpg';
 import PancakePreview from './images/pancake1.png';
 import ClouckPreview from './images/clouck.jpg'
+import ReadmePreview from './images/readme.jpg'
 
 const Project = ({ isDarkMode }) => {
     
@@ -28,7 +29,7 @@ const Project = ({ isDarkMode }) => {
                 </div>
                 <span className="index-container">
                     <footer className="footer">
-                        <p>© 2024 Sangyu Chen</p>
+                        <p>© 2025 Sangyu Chen</p>
                     </footer>
                 </span>
             </div>
@@ -64,6 +65,21 @@ const Project = ({ isDarkMode }) => {
                     </Link>
 
 
+                    <Link to="/readme" className="item_link">
+                        <div className="item">
+                            <img src={ReadmePreview} alt="Readme" />
+                            <h3 className="item_title">README</h3>
+                            <div className="tags">
+                                    <Tag label="web" />
+                                    <Tag label="react" />
+                                    <Tag label="typescript" />
+                                    <Tag label="journaling" />
+                                    <Tag label="nostalgia" />
+                            </div>
+                        </div>
+                    </Link>
+
+
                     <Link to="/unlock" className="item_link">
                         <div className="item">
                             <img src={UnlockPreview} alt="Unlock" />
@@ -77,6 +93,9 @@ const Project = ({ isDarkMode }) => {
                             </div>
                         </div>
                     </Link>
+
+
+ 
 
                     
 

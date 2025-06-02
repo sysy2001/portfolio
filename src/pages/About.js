@@ -18,7 +18,7 @@ const About = ({ isDarkMode }) => {
         </div>
         <span className="index-container">
             <footer className="footer">
-                <p>© 2024 Sangyu Chen</p>
+                <p>© 2025 Sangyu Chen</p>
             </footer>
         </span>
       </div>
@@ -27,8 +27,8 @@ const About = ({ isDarkMode }) => {
           Sangyu Chen (b. 2001) is a creative technologist who crafts playful, interactive and narrative experiences through web development and games.
           <br />
           <br />
-          She received her B.S. in Computer Science at Tufts University.
-          She is currently a second-year master's student at the Interactive Telecommunications Program of NYU Tisch School of the Arts.
+          She received her B.S. in Computer Science at Tufts University,
+          and her M.P.S. from the Interactive Telecommunications Program (ITP) at NYU Tisch School of the Arts.
         </h3>
 
         <a className="social" style={{color: isDarkMode ? 'white' : 'black' }} href="mailto:sangyuc2001@gmail.com">email &#x2197;</a> 

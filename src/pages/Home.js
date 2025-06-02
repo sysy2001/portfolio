@@ -26,7 +26,7 @@ const Home = ({ isDarkMode }) => {
       {isSketchLoaded && <Typewriter isDarkMode={isDarkMode} />}
       <span className="index-container">
         <footer className="footer" style={{color: isDarkMode ? 'white' : 'black' }}>
-          <p>© 2024 Sangyu Chen</p>
+          <p>© 2025 Sangyu Chen</p>
         </footer>
       </span>
     </div>
