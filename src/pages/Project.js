@@ -12,6 +12,7 @@ import RicePreview from './images/rice.jpg';
 import PancakePreview from './images/pancake1.png';
 import ClouckPreview from './images/clouck.jpg'
 import ReadmePreview from './images/readme.jpg'
+import FlowPreview from './images/flow.jpg'
 
 const Project = ({ isDarkMode }) => {
     
@@ -127,6 +128,7 @@ const Project = ({ isDarkMode }) => {
                         </div>
                     </Link>
 
+
                     
                     <Link to="/rice" className="item_link">
                         <div className="item">
@@ -174,6 +176,19 @@ const Project = ({ isDarkMode }) => {
                     </Link>
 
 
+
+                    <Link to="/flow" className="item_link">
+                        <div className="item">
+                            <img src={FlowPreview} alt="Dreams" />
+                            <h3 className="item_title">Flow</h3>
+                            <div className="tags">
+                                    <Tag label="led mapping" />
+                                    <Tag label="madmapper" />
+                                    <Tag label="weather api" />
+                            </div>
+                        </div>
+                    </Link>
+
                     <Link to="/pancake" className="item_link">
                         <div className="item">
                             <img src={PancakePreview} alt="Pancake!" />
@@ -185,6 +200,7 @@ const Project = ({ isDarkMode }) => {
                             </div>
                         </div>
                     </Link>
+
 
 
                     
