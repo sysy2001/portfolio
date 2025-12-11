@@ -20,7 +20,7 @@ const Rice = ({ isDarkMode }) => {
         </div>
         <span className="index-container">
         <footer className="footer">
-            <p>© 2024 Sangyu Chen</p>
+            <p>© 2025 Sangyu Chen</p>
         </footer>
       </span>
       </div>

@@ -20,7 +20,7 @@ const SketchBooth = ({ isDarkMode }) => {
         </div>
         <span className="index-container">
         <footer className="footer">
-            <p>© 2024 Sangyu Chen</p>
+            <p>© 2025 Sangyu Chen</p>
         </footer>
       </span>
       </div>
@@ -34,7 +34,7 @@ const SketchBooth = ({ isDarkMode }) => {
             <a style={{color: isDarkMode ? 'white' : 'black' ,
                         textDecoration: 'underline',
                         textUnderlineOffset: '6px',
-                        textDecorationColor: '#FB88B4',}}  href="https://sc7436.itp.io/" target="_blank" rel="noopener noreferrer">Project &#x2197;</a> | 
+                        textDecorationColor: '#FB88B4',}}  href="https://github.com/sysy2001/sketch-booth" target="_blank" rel="noopener noreferrer">Project &#x2197;</a> | 
                         My Role: Web Development, Backend Development <br></br>
             </p>
 

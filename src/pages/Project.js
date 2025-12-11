@@ -1,6 +1,7 @@
 import React from 'react';
 import './Project.css';
 import Tag from '../component/Tag';
+import LazyImage from '../component/LazyImage';
 import { Link } from 'react-router-dom';
 import SoloPongPreview from './images/solopong1.png';
 import OliviasRoomPreview from './images/oliviasroom1.png';
@@ -40,7 +41,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/solo-pong" className="item_link">
                         <div className="item">
-                            <img src={SoloPongPreview} alt="Solo Pong" />
+                            <LazyImage src={SoloPongPreview} alt="Solo Pong" />
                             <h3 className="item_title">Solo Pong</h3>
                             <div className="tags">
                                 <Tag label="installation" />
@@ -51,7 +52,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/sketch-booth" className="item_link">
                         <div className="item">
-                            <img src={SketchboothPreview} alt="Sketch Booth" />
+                            <LazyImage src={SketchboothPreview} alt="Sketch Booth" />
                             <h3 className="item_title">Sketch Booth</h3>
                             <div className="tags">
                                     <Tag label="web" />
@@ -68,7 +69,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/readme" className="item_link">
                         <div className="item">
-                            <img src={ReadmePreview} alt="Readme" />
+                            <LazyImage src={ReadmePreview} alt="Readme" />
                             <h3 className="item_title">README</h3>
                             <div className="tags">
                                     <Tag label="web" />
@@ -83,7 +84,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/unlock" className="item_link">
                         <div className="item">
-                            <img src={UnlockPreview} alt="Unlock" />
+                            <LazyImage src={UnlockPreview} alt="Unlock" />
                             <h3 className="item_title">Unlock</h3>
                             <div className="tags">
                                     <Tag label="game" />
@@ -103,7 +104,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/olivias-room" className="item_link">
                         <div className="item">
-                            <img src={OliviasRoomPreview} alt="Olivia's Room" />
+                            <LazyImage src={OliviasRoomPreview} alt="Olivia's Room" />
                             <h3 className="item_title">Olivia's Room</h3>
                             <div className="tags">
                                     <Tag label="web" />
@@ -117,7 +118,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/dream" className="item_link">
                         <div className="item">
-                            <img src={DreamsPreview} alt="Dreams" />
+                            <LazyImage src={DreamsPreview} alt="Dreams" />
                             <h3 className="item_title">Dream as they are DREAMS</h3>
                             <div className="tags">
                                     <Tag label="web" />
@@ -132,7 +133,7 @@ const Project = ({ isDarkMode }) => {
                     
                     <Link to="/rice" className="item_link">
                         <div className="item">
-                            <img src={RicePreview} alt="Rice!!" />
+                            <LazyImage src={RicePreview} alt="Rice!!" />
                             <h3 className="item_title">RICE!!</h3>
                             <div className="tags">
                                     <Tag label="game" />
@@ -150,7 +151,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/seeing-sound" className="item_link">
                         <div className="item">
-                            <img src={SeeingsoundPreview} alt="Seeing Sound" />
+                            <LazyImage src={SeeingsoundPreview} alt="Seeing Sound" />
                             <h3 className="item_title">Seeing Sound</h3>
                             <div className="tags">
                                     <Tag label="audio visualization" />
@@ -165,7 +166,7 @@ const Project = ({ isDarkMode }) => {
                     
                     <Link to="/clouck" className="item_link">
                         <div className="item">
-                            <img src={ClouckPreview} alt="A cloud clock" />
+                            <LazyImage src={ClouckPreview} alt="A cloud clock" />
                             <h3 className="item_title">Clouck</h3>
                             <div className="tags">
                                     <Tag label="clock design" />
@@ -179,7 +180,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/flow" className="item_link">
                         <div className="item">
-                            <img src={FlowPreview} alt="Dreams" />
+                            <LazyImage src={FlowPreview} alt="Flow" />
                             <h3 className="item_title">Flow</h3>
                             <div className="tags">
                                     <Tag label="led mapping" />
@@ -191,7 +192,7 @@ const Project = ({ isDarkMode }) => {
 
                     <Link to="/pancake" className="item_link">
                         <div className="item">
-                            <img src={PancakePreview} alt="Pancake!" />
+                            <LazyImage src={PancakePreview} alt="Pancake!" />
                             <h3 className="item_title">Make your own Pancake</h3>
                             <div className="tags">
                                     <Tag label="web" />

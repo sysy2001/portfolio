@@ -19,7 +19,7 @@ const OliviasRoom = ({ isDarkMode }) => {
         </div>
         <span className="index-container">
         <footer className="footer">
-            <p>© 2024 Sangyu Chen</p>
+            <p>© 2025 Sangyu Chen</p>
         </footer>
       </span>
       </div>
@@ -30,11 +30,7 @@ const OliviasRoom = ({ isDarkMode }) => {
         <p className="year"> November - December 2023 </p>
         <p className="collab">Collaborative work with Sonny Yan</p>
             <p className="role">
-            <a style={{color: isDarkMode ? 'white' : 'black' ,
-                        textDecoration: 'underline',
-                        textUnderlineOffset: '6px',
-                        textDecorationColor: '#FB88B4',}}  href="https://hypercinema-fall23-2.glitch.me/" target="_blank" rel="noopener noreferrer">Project &#x2197;</a> | 
-                        Role: 3D Graphics Developer, Interaction Programmer
+                <span className="underscore">My Role</span>: 3D Graphics Developer, Interaction Programmer
             </p>
 
 
